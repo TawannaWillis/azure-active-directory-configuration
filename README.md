@@ -74,7 +74,7 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />
 
 <p>
-<img src="https://i.imgur.com/jmR2LXa.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/AXwGOJk.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
 <br />
