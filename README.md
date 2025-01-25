@@ -50,21 +50,16 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />
 
 <p>
-<img src="https://i.imgur.com/X6UGnsf.png" height="80%" width="80%" alt="Configuration Steps"/>
+
 </p>
 <p>
-<br />- Configure DNS settings before the client can join the domain.  
-<br />- Set the DNS server to the domain controller's private IP address  
-<br />- In the Azure portal, open the **Networking** tab of the client VM.  
-<br />- Click on **Network Interface** and update the **DNS servers** with the domain controller's private IP.  
-<br />- Save the changes.  
-<br />- Restart the client VM to apply the DNS changes.   
+   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/b1gUew4.png" height="80%" width="80%" alt="Configuration Steps"/>
-<img src="https://i.imgur.com/N0Mnfoq.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/YtUCCF9.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/q0tdWdI.png" height="80%" width="80%" alt="Configuration Steps"/>
 <img src="https://i.imgur.com/DkPUJNR.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
