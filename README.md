@@ -107,7 +107,9 @@ This lab builds upon the previous one where I installed Active Directory and set
 <img src="https://i.imgur.com/Xn5tQU2.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-After creating the users, Client-1 can now be signed in as one of the new users that were created from the PowerShell script. Pick a name and simply sign in to the client with the context of the domain. In my case, it is ernestotest.com\bon.rovej.
+<br />- Users created with the PowerShell script can now sign in to Client-1.  
+<br />- Select a user and sign in with the domain context.  
+<br />- Example: `ernestotest.com\bon.rovej`.
 </p>
 <br />
 
