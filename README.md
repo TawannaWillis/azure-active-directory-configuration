@@ -40,10 +40,10 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />- Create two OUs: `_EMPLOYEES` and `_ADMINS` (used for later PowerShell scripts).  
 <br />- Within the `_ADMINS` OU, create a new user (e.g., **Jane Doe**).  
 <br />- To grant admin privileges:  
-  - Right-click the user and select **Properties**.  
-  - Go to the **Member Of** tab and click **Add**.  
-  - Add the user to the **Domain Admins** security group.  
-- Log off as `labuser` and log in as `jane_admin` for further changes.  
+<br />- Right-click the user and select **Properties**.  
+<br /> - Go to the **Member Of** tab and click **Add**.  
+<br /> - Add the user to the **Domain Admins** security group.  
+<br />- Log off as `labuser` and log in as `jane_admin` for further changes.  
 
 
 </p>
@@ -63,13 +63,13 @@ This lab builds upon the previous one where I installed Active Directory and set
 <img src="https://i.imgur.com/URuAmsO.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-<br />- Join the client VM to the domain:  
-<br />- Open the **System** menu on the client VM.  
-<br />- Click **Rename this PC (advanced)** and then **Change**.  
-<br />- Enter the domain name and provide the necessary credentials (e.g., domain path and username).  
-<br />- Log in with credentials in the format: `domain\username`.  
-<br />- VerifyThe client VM is now part of the domain.  
-<br />- VerifyOn the domain controller, the client appears under **Computers** in the **Active Directory Users and Computers** panel.  
+<br />- Join the client VM to the domain <br /> 
+<br />- Open the **System** menu on the client VM. <br /> 
+<br />- Click **Rename this PC (advanced)** and then **Change**. <br /> 
+<br />- Enter the domain name and provide the necessary credentials (e.g., domain path and username). <br /> 
+<br />- Log in with credentials in the format: `domain\username`. <br /> 
+<br />- VerifyThe client VM is now part of the domain. <br /> 
+<br />- VerifyOn the domain controller, the client appears under **Computers** in the **Active Directory Users and Computers** panel.<br />  
 </p>
 <br />
 
@@ -94,10 +94,15 @@ This lab builds upon the previous one where I installed Active Directory and set
 <img src="https://i.imgur.com/HrI6BTq.png" height="80%" width="80%" alt="Configuration Steps"/>
 <img src="https://i.imgur.com/c7LaN48.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
-<p>
-Creating users can be done manually or through the use of a script. For this lab, I will be using a PowerShell script. The PowerShell script can be found <a href="https://github.com/AsiaPonder001/BunchofUsers/blob/main/README.md?plain=1)"> here. </a> On the domain controller, open PowerShell ISE as an administrator (and make sure you are logged in with an admin account on the domain controller). Create a new file and paste the script into ISE console. Run the script and observe the accounts being created. 
+
+<br />- Users can be created manually or with a script.<br />  
+<br />- For this lab, a PowerShell script is used.<br />  
+<br />- Steps to create users with PowerShell.<br /> 
+<br />- Log in to the domain controller with an admin account.<br />  
+<br />- Open **PowerShell ISE** as an administrator.<br />  
+<br />- Create a new file and paste the script into the ISE console.<br />  
+<br />- Run the script and observe the accounts being created.<br />  
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/Xn5tQU2.png" height="80%" width="80%" alt="Configuration Steps"/>
