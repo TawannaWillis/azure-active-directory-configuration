@@ -80,13 +80,13 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />
 
 
-- Enable Remote Desktop for non-administrative users 
-- Log in as an administrator (e.g., Jane).  
-- Open **System Properties** and click on **Remote Desktop**.  
-- Select users that can remotely access the PC.  
-- Allow **Domain Users** access to Remote Desktop.  
-- Non-administrative users can now log in to the client computer.  
-- Note: Group Policy can be used to apply this change across multiple systems, but it is not used in this lab.  
+<br />- Enable Remote Desktop for non-administrative users <br />
+<br />- Log in as an administrator (e.g., Jane).  
+<br />- Open **System Properties** and click on **Remote Desktop**.  
+<br />- Select users that can remotely access the PC.  
+<br />- Allow **Domain Users** access to Remote Desktop.  
+<br />- Non-administrative users can now log in to the client computer.  
+<br />- Note: Group Policy can be used to apply this change across multiple systems, but it is not used in this lab.  
 </p>
 <br />
 
