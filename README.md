@@ -55,7 +55,7 @@ This lab builds upon the previous one where I installed Active Directory and set
 <p>
    
 </p>
-<br />
+ 
 
 <p>
 <img src="https://i.imgur.com/YtUCCF9.png" height="80%" width="80%" alt="Configuration Steps"/>
@@ -63,7 +63,13 @@ This lab builds upon the previous one where I installed Active Directory and set
 <img src="https://i.imgur.com/URuAmsO.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-It is now time to make the client VM join the domain. In the System menu of the client VM, click on Rename this PC (advanced) and Change. Enter the domain and necessary credentials in order to let the client join the domain. I am logging in as Jane Doe for the purposes of the lab. It is important to note that the login credentials have to be input within the context of the domain path. The client should now be part of the domain. On the domain controller, the client should now appear in Computers in the Active Directory Users and Computers panel.
+<br />- Join the client VM to the domain:  
+<br />- Open the **System** menu on the client VM.  
+<br />- Click **Rename this PC (advanced)** and then **Change**.  
+<br />- Enter the domain name and provide the necessary credentials (e.g., domain path and username).  
+<br />- Log in with credentials in the format: `domain\username`.  
+<br />- VerifyThe client VM is now part of the domain.  
+<br />- VerifyOn the domain controller, the client appears under **Computers** in the **Active Directory Users and Computers** panel.  
 </p>
 <br />
 
@@ -71,7 +77,16 @@ It is now time to make the client VM join the domain. In the System menu of the 
 <img src="https://i.imgur.com/jmR2LXa.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-Before users in the domain can use the client computer, Remote Desktop has to be enabled for non-administrative users. While logged in as the administrator (in my case, Jane), open System Properties. Click on Remote Desktop and Select users that can remotely access this PC. Allow Domain Users access to Remote Desktop. Non-administrative users can now log in to Client-1. Normally a Group Policy can do the same and allows changes to many systems at once. For the purposes of this lab, a Group Policy won't be used to make this change.
+<br />
+
+
+- Enable Remote Desktop for non-administrative users 
+- Log in as an administrator (e.g., Jane).  
+- Open **System Properties** and click on **Remote Desktop**.  
+- Select users that can remotely access the PC.  
+- Allow **Domain Users** access to Remote Desktop.  
+- Non-administrative users can now log in to the client computer.  
+- Note: Group Policy can be used to apply this change across multiple systems, but it is not used in this lab.  
 </p>
 <br />
 
