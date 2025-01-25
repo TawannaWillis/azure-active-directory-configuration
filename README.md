@@ -30,7 +30,7 @@ This lab builds upon the previous one where I installed Active Directory and set
 
 <p>
 <img src="https://i.imgur.com/zo0BWbb.png" height="80%" width="80%" alt="Configuration Steps"/>
-<img src="https://i.imgur.com/HSJk3BO.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/EHU2ooS.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
 
