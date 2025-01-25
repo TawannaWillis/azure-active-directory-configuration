@@ -74,7 +74,7 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />
 
 <p>
-<img src="https://i.imgur.com/AXwGOJk.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/8FUGk5N.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
 <br />
@@ -91,13 +91,12 @@ This lab builds upon the previous one where I installed Active Directory and set
 <br />
 
 <p>
-<img src="https://i.imgur.com/HrI6BTq.png" height="80%" width="80%" alt="Configuration Steps"/>
-<img src="https://i.imgur.com/c7LaN48.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/h9c3YOM.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/xalP6Gh.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 
 <br />- Users can be created manually or with a script.<br />  
 <br />- For this lab, a PowerShell script is used.<br />  
-<br />- Steps to create users with PowerShell.<br /> 
 <br />- Log in to the domain controller with an admin account.<br />  
 <br />- Open **PowerShell ISE** as an administrator.<br />  
 <br />- Create a new file and paste the script into the ISE console.<br />  
