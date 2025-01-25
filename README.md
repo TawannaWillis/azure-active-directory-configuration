@@ -104,15 +104,15 @@ This lab builds upon the previous one where I installed Active Directory and set
 </p>
 
 <p>
-<img src="https://i.imgur.com/Xn5tQU2.png" height="80%" width="80%" alt="Configuration Steps"/>
+<img src="https://i.imgur.com/499JIxw.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
 <br />- Users created with the PowerShell script can now sign in to Client-1.  
-<br />- Select a user and sign in with the domain context.  
-<br />- Example: `ernestotest.com\bon.rovej`.
+<br />- Observe that in Active Directory, under -Employees users are created.  
+<br />- User are able to be log into Client-1 with password1.
 </p>
 <br />
 
 <h2>Lessons Learned</h2>
 
-Doing this lab has made me learn how to set up Active Directory and join clients to the domain. I also created users and assigned the necessary permissions. Active Directory is not difficult to learn despite all the menu navigation that takes place. This lab is a segway for me to learn about DNS settings in-depth and file permissions in action. I will go into detail about these topics in other labs.
+Completing this lab has taught me how to set up Active Directory and join client machines to the domain. I also learned how to create users and assign the necessary permissions. Although Active Directory involves a lot of menu navigation, it is not difficult to grasp. This lab serves as a gateway for me to explore DNS settings and file permissions in greater depth, which I will cover in future labs.
