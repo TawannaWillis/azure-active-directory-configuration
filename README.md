@@ -35,11 +35,11 @@ This lab builds upon the previous one where I installed Active Directory and set
 </p>
 <p>
 
-- Open the **Active Directory Users and Computers** console.  
-- Right-click on your domain (e.g., `tawannatest.com`) and create a new **Organizational Unit (OU)**.  
-- Create two OUs: `_EMPLOYEES` and `_ADMINS` (used for later PowerShell scripts).  
-- Within the `_ADMINS` OU, create a new user (e.g., **Jane Doe**).  
-- To grant admin privileges:  
+<br />- Open the **Active Directory Users and Computers** console.  
+<br />- Right-click on your domain (e.g., `tawannatest.com`) and create a new **Organizational Unit (OU)**.  
+<br />- Create two OUs: `_EMPLOYEES` and `_ADMINS` (used for later PowerShell scripts).  
+<br />- Within the `_ADMINS` OU, create a new user (e.g., **Jane Doe**).  
+<br />- To grant admin privileges:  
   - Right-click the user and select **Properties**.  
   - Go to the **Member Of** tab and click **Add**.  
   - Add the user to the **Domain Admins** security group.  
@@ -53,7 +53,12 @@ This lab builds upon the previous one where I installed Active Directory and set
 <img src="https://i.imgur.com/X6UGnsf.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-Before the client can join the domain, it is important to configure the DNS settings first. The DNS server has to pointing to the domain controller's private IP address. On the Azure portal, open the Networking tab and click on Network Interface. In the DNS servers, enter the domain controller's private IP address and save the changes. Restart the client VM in order to ensure the DNS changes are saved. 
+<br />- Configure DNS settings before the client can join the domain.  
+<br />- Set the DNS server to the domain controller's private IP address  
+<br />- In the Azure portal, open the **Networking** tab of the client VM.  
+<br />- Click on **Network Interface** and update the **DNS servers** with the domain controller's private IP.  
+<br />- Save the changes.  
+<br />- Restart the client VM to apply the DNS changes.   
 </p>
 <br />
 
